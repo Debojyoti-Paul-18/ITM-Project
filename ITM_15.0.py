@@ -7,7 +7,7 @@ import threading
 import webbrowser
 
 # Google Maps API key
-# spare API_KEY = 'AIzaSyAyR0scmCah89IF6SdLPXt61WGCMfC4mfI'
+# spare API_KEY = 'AIzaSyAyR0scmCah89IF6SdLPXt61WGCMfC4mfI'  (Alternate API Key)
 API_KEY = 'AIzaSyD5M6O9EEhMUKTOwbCUvKAwcimStjqXJms'
 
 
