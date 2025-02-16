@@ -8,7 +8,7 @@ import webbrowser
 
 # Google Maps API key
 # spare API_KEY = 'AIzaSyAyR0scmCah89IF6SdLPXt61WGCMfC4mfI'  (Alternate API Key)
-# API_KEY = 'AIzaSyD5M6O9EEhMUKTOwbCUvKAwcimStjqXJms' (Remove the sign of the comment while running the code)
+API_KEY = 'AIzaSyD5M6O9EEhMUKTOwbCUvKAwcimStjqXJms' 
 
 
 def meters_to_degrees_latitude(meters):
