@@ -7,7 +7,7 @@ print(f"Using device: {device}")
 
 model = YOLO("yolov8n.pt").to(device)
 
-cap = cv2.VideoCapture("traffic.mp4")
+cap = cv2.VideoCapture("traffic1.mp4")
 
 frame_width = 640
 frame_height = 480
@@ -27,7 +27,7 @@ while cap.isOpened():
             x1, y1, x2, y2 = map(int, box.xyxy[0])
             cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
-    cv2.putText(frame, f"Vehicles: {vehicle_count}", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
+    cv2.putText(frame, f"Vehicles: {vehicle_count}", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
 
     cv2.imshow("Traffic Detection", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
